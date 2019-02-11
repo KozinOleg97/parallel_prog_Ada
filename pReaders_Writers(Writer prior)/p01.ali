@@ -1,0 +1,90 @@
+V "GNAT Lib v3.12  "
+M P W=b
+A -gnatwu
+A -gnato
+A -g
+P
+R nnvvnnvvnnnvvvvvvvnnnnnnvnvvnnnvnnnnnvnn
+
+U p01%b			p01.adb			0714A225 NE SU
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		19941113000442 2359F9ED
+D a-calend.ads		19971119113804 0E1F0C88
+D a-caldel.ads		19980214131222 6E8ED3D1
+D a-except.ads		19981207201100 2DA50930
+D a-finali.ads		19971119113818 3F32DEEF
+D a-filico.ads		19970304225844 1DECB9AC
+D a-ioexce.ads		19941113032010 175CB67B
+D a-stream.ads		19971119113846 5F7C277B
+D a-tags.ads		19980810193500 45EF7E4E
+D a-textio.ads		19980710020122 2D24B708
+D interfac.ads		19990427013020 0357E00A
+D i-c.ads		19970515230708 30F7C341
+D i-cstrin.ads		19941113032132 462439BF
+D i-cstrea.ads		19980824002810 23D83009
+D p01.adb		20190211122212 7F40C439
+D system.ads		19990426135236 56350D64
+D s-arit64.ads		19961219212852 45DECFCA
+D s-exctab.ads		19970318033306 1A552981
+D s-ficobl.ads		19990212153920 0C03FD47
+D s-finimp.ads		19980220214008 1C201C0F
+D s-finroo.ads		19960921205928 166D4EDA
+D s-imgint.ads		19951120053032 21B5CB31
+D s-osinte.ads		19990123212332 6CACB5E0
+D s-parame.ads		19990409095734 637E33DE
+D s-secsta.ads		19990405200846 6DF20AF1
+D s-soflin.ads		19990409061558 519F026E
+D s-stache.ads		19990409101030 42B57F2A
+D s-stalib.ads		19990125195852 7A7199A7
+D s-stoele.ads		19980907120904 131D4539
+D s-stratt.ads		19981013225624 1761725B
+D s-tasinf.ads		19990211141120 0F7BBEC5
+D s-taspri.ads		19981013112316 636B904E
+D s-taskin.ads		19990412205922 4A1E121F
+D s-taprob.ads		19990616110206 64D6A3CC
+D s-tpoben.ads		19990412205924 512638AB
+D s-tasren.ads		19981218223326 0A08BEEB
+D s-tassta.ads		19980626151140 264AB3EF
+D s-unstyp.ads		19980605011738 7918B0AB
+D text_io.ads		19961216004652 7854661C
+D unchconv.ads		19960730004842 72DC4539
+X 10 a-textio.ads
+260U14*Put_Line 15|16r7 30r7 42r22 44r22 51r22 61r22 63r22 71r22 73r22 85r22
+. 95r22 102r19 111r22 113r22 119r25 136r7 158r7 181r7
+X 15 p01.adb
+4U11*P01
+10t9 Task1
+19t9 Controller 153r10 155r10 176r10 178r10
+20Y13 Read 40b26 59b26 153r21
+21Y13 Write 50b26 84b26 176r21
+22Y13 Fin 69b26 93b26 109b26 155r21 178r21
+27i7 State 35r15 40m34 50m35 59m34 78m25 84m35 93m33 118m25
+28i7 Readers_Count 41m22 41r37 44r45 60m22 60r37 63r45 69m33 69r50 73r45
+. 76r26 109m33 109r50 113r45 116r26
+141T14 Reader 147b14 186r10 187r10 188r10
+141i22 Interval
+143Y13 Start 149b14 195r8 197r8 198r8
+164T14 Writer 170b14 189r10
+164i22 Interval
+166Y13 Start 172b14 200r8
+186t4 R_1 195r4
+187t4 R_2 197r4
+188t4 R_3 198r4
+189t4 W_1 200r4
+X 39 text_io.ads
+21U9*Text_IO 15|2r6 6r8
+

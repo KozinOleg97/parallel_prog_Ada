@@ -1,0 +1,17 @@
+with Text_IO; use Text_IO;
+Procedure pClocks is
+Task Type tClock;
+Clock1, Clock2, Clock3 : tClock;
+Task Body tClock is
+   I : natural := 0;
+Begin --tClock
+  Put_Line ( "Timer");
+  Loop
+    Delay 3.0; i := i + 3;
+    Put_Line ("Current "&Natural'Image(i)&" sec");
+  End Loop;
+End tClock;
+Begin--pClocks
+ delay 1.0;
+End pClocks;
+
