@@ -98,7 +98,7 @@ procedure P01 is
 
                or
 
-                  delay 0.2;
+
                   Put_Line (
                      "Wait write Fin");
                end select;
@@ -149,9 +149,9 @@ procedure P01 is
       accept Start; 
       loop
 
-         delay 0.01;
+         
          Controller.Read;
-         delay 0.01;
+         
          Controller.Fin;
       end loop;
 
@@ -172,9 +172,9 @@ procedure P01 is
       accept Start; 
       loop
 
-         delay 0.01;
+         
          Controller.Write;
-         delay 0.03;
+         
          Controller.Fin;
       end loop;
 
@@ -193,10 +193,10 @@ begin
    --Put_Line("Hello, world!");
 
    R_1.Start;
-   delay 0.05;
+   
    R_2.Start;
    R_3.Start;
-   delay 0.15;
+   
    W_1.Start;
 
    --Controller.Read;
