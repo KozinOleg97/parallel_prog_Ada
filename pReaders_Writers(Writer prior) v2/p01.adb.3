@@ -77,8 +77,15 @@ procedure P01 is
                            then
                         State := 0;
                      end if;
-
                   end Fin;
+
+               or
+
+                  accept Write do State := 3; 
+                     Put_Line (
+                        "write req ");
+                  end Write;
+
                end select;
 
             when 2    =>
@@ -95,6 +102,29 @@ procedure P01 is
                   Put_Line (
                      "Wait write Fin");
                end select;
+
+
+            when 3    =>
+               select
+                  accept Fin do Readers_Count := Readers_Count - 1; 
+
+                     Put_Line (
+                        "Stop read");
+                     Put_Line(Integer'Image(Readers_Count));
+
+
+                     if (Readers_Count = 0)
+                           then
+                        State := 2;
+                        Put_Line (
+                           "Start write");
+
+
+                     end if;
+                  end Fin;
+
+               end select;
+
 
             when others => -- error 
                null;
@@ -119,9 +149,9 @@ procedure P01 is
       accept Start; 
       loop
 
-         
+
          Controller.Read;
-         
+
          Controller.Fin;
       end loop;
 
@@ -142,9 +172,9 @@ procedure P01 is
       accept Start; 
       loop
 
-         
+
          Controller.Write;
-         
+
          Controller.Fin;
       end loop;
 
@@ -163,10 +193,10 @@ begin
    --Put_Line("Hello, world!");
 
    R_1.Start;
-   
+
    R_2.Start;
    R_3.Start;
-   
+
    W_1.Start;
 
    --Controller.Read;

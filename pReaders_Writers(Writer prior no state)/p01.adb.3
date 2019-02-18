@@ -79,94 +79,107 @@ procedure P01 is
                      end if;
 
                   end Fin;
-               end select;
-
-            when 2    =>
-               select
-                  accept Fin do State := 0; 
-
-                     Put_Line (
-                        "Fin write");
-                  end Fin;
 
                or
 
-                  delay 0.1;
+                  accept Write do while Readers_Count > 0 loop accept Fin; 
+                     Readers_Count := Readers_Count - 1;
+
+                  end loop;
                   Put_Line (
-                     "Wait write Fin");
-               end select;
+                     "Start write");
 
-            when others => -- error 
-               null;
-         end case;
+                  State := 2;
 
+               end Write;
+         end select;
 
+         when 2    =>
+         select
+            accept Fin do State := 0; 
 
-      end loop;
-      Put_Line (
-         "Controller End");
-   end Controller;
+               Put_Line (
+                  "Fin write");
+            end Fin;
 
-   -----------------------------------------  
-   task type Reader (Interval: Integer
-         ) is
-      entry Start; 
-   end Reader;
+         or
 
+            delay 0.1;
+            Put_Line (
+               "Wait write Fin");
+         end select;
 
-   task body Reader is
-   begin
-      accept Start; 
-      loop
-
-         
-         Controller.Read;
-         
-         Controller.Fin;
-      end loop;
-
-      Put_Line("Done");
+         when others => -- error 
+         null;
+      end case;
 
 
-   end Reader;
 
-   -----------------------------------------  
-   task type Writer (Interval: Integer
-         ) is
-      entry Start; 
-   end Writer ;
+   end loop;
+   Put_Line (
+      "Controller End");
+end Controller;
 
-
-   task body Writer is
-   begin
-      accept Start; 
-      loop
-
-         
-         Controller.Write;
-         
-         Controller.Fin;
-      end loop;
-
-      Put_Line("Done");
+-----------------------------------------  
+task type Reader (Interval: Integer
+      ) is
+   entry Start; 
+end Reader;
 
 
-   end Writer ;
+task body Reader is
+begin
+   accept Start; 
+   loop
 
-   R_1 : Reader (Interval => 10000);  
-   R_2 : Reader (Interval => 10000);  
-   R_3 : Reader (Interval => 10000);  
-   W_1 : Writer (Interval => 10000);  
-   --------------------------------------------
+
+      Controller.Read;
+
+      Controller.Fin;
+   end loop;
+
+   Put_Line("Done");
+
+
+end Reader;
+
+-----------------------------------------  
+task type Writer (Interval: Integer
+      ) is
+   entry Start; 
+end Writer ;
+
+
+task body Writer is
+begin
+   accept Start; 
+   loop
+
+
+      Controller.Write;
+
+      Controller.Fin;
+   end loop;
+
+   Put_Line("Done");
+
+
+end Writer ;
+
+R_1 : Reader (Interval => 10000);
+R_2 : Reader (Interval => 10000);
+R_3 : Reader (Interval => 10000);
+W_1 : Writer (Interval => 10000);
+--------------------------------------------
 begin
 
    --Put_Line("Hello, world!");
 
    R_1.Start;
-   
+
    R_2.Start;
    R_3.Start;
-   
+
    W_1.Start;
 
    --Controller.Read;

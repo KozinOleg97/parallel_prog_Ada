@@ -1,0 +1,49 @@
+--with  Gnat.IO;
+with Text_Io;
+
+procedure P01 is 
+   --use Ada.Text_IO;
+   use Text_Io;
+
+
+
+   --------------------------------------------
+   
+      task T is
+      --entry A (from_t_to_r : in integer);
+            --entry B (data : out integer);
+            
+   end T ;
+
+
+   task body T is
+      L: integer;
+   begin
+            L :=100;
+      Buffer.A (L);
+
+   end T ;
+
+  ----------------------  
+  
+   task R is
+      --entry A (data : in integer);
+            --entry B (data : out integer);
+            
+   end R;
+
+
+   task body R is
+      L: integer;
+   begin            
+      Buffer.B (L);
+            Put_Line("Result, L = " & Integer'Image(L));
+   end R;
+   ------------------
+   
+   
+begin
+     
+   Put_Line("Hello, world!");
+
+end P01;

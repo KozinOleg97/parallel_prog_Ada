@@ -1,0 +1,87 @@
+--with  Gnat.IO;
+with Text_Io;
+
+procedure P01 is 
+   --use Ada.Text_IO;
+   use Text_Io;
+
+
+
+   --------------------------------------------
+   
+      task T is
+      --entry A (from_t_to_r : in integer);
+            entry B (data : out integer);
+            
+   end T ;
+
+
+   task body T is
+      L: integer;
+   begin
+            L :=100;
+      accept B (data : out integer) do
+       data := L;
+      Put_Line("Take L from translator");
+            end B;
+
+   end T ;
+
+  ----------------------  
+  
+   task R is
+      entry A (data : in integer);
+            --entry B (data : out integer);
+            
+   end R;
+
+
+   task body R is
+      L: integer;
+   begin            
+      accept A (data : in integer) do
+      L:= data;
+      Put_Line("Put L into R from transporter");
+            Put_Line("dd "& Integer'Image(L));
+            end A;
+
+   end R;
+   ------------------
+   
+   task Transporter is
+      --entry A (data : in integer);
+            --entry B (data : out integer);
+            
+   end Transporter;
+
+
+   task body Transporter is
+      L: integer;
+   begin            
+            L:=0;
+      T.B (L);
+            R.A (L);
+
+   end Transporter;
+
+
+   
+   ------------------------------------------------------------------------------
+begin
+     
+   Put_Line("Hello, world!");
+
+   --R_1.Start;
+
+   --R_2.Start;
+   --R_3.Start;
+
+   --W_1.Start;
+
+
+
+
+
+
+
+end P01;
