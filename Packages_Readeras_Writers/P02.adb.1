@@ -1,0 +1,62 @@
+with Text_Io;
+with RW_pack;
+
+procedure P02 is 
+   --use Ada.Text_IO;
+   use Text_Io;
+      use RW_pack;
+   
+ -----------------------------------------  
+   task type Reader is
+      entry Start; 
+   end Reader;
+
+
+   task body Reader is
+   begin
+      accept Start; 
+      loop
+               Read;
+               --delay 1.0;      
+               Fin;
+              --delay 1.0;
+      end loop;
+
+      Put_Line("Done");
+
+   end Reader;
+
+   -----------------------------------------  
+   task type Writer is
+      entry Start; 
+   end Writer ;
+
+
+   task body Writer is
+   begin
+      accept Start; 
+      loop
+               Write;
+               --delay 1.0;      
+               Fin;
+               --delay 1.0;
+      end loop;
+
+      Put_Line("Done");
+   end Writer ;
+
+   R_1 : Reader;  
+   R_2 : Reader;  
+   R_3 : Reader;  
+   W_1 : Writer;  
+   -------------------------------------------- 
+   
+begin
+       
+    R_1.Start;
+
+   R_2.Start;
+   R_3.Start;
+
+     W_1.Start;     
+end P02;
