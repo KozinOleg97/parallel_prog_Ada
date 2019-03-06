@@ -18,40 +18,13 @@ procedure P01 is
       State: integer;
             lmtx : integer = 0;      
    begin
-            State:=0; --sleep   
             
-      loop        
+      loop  
+
+            Bshop.berber_work;
+
+           
       
-            select
-
-         when (state = 0) => accept wake do
-             Put_Line("call Barber Wake");
-             State := 1; --work          
-         end wake;
-            
-            or
-            
-           when (state = 1) => 
-                  delay 0.0001;
-           Put_Line("Barber done");
-          State := 2; --check mtx         
-
-               when (state = 2) =>
-                  delay 0.0001;
-                  Put_Line("Barber checking mtx");
-                  Mutex.Take(lmtx);
-                  if (lmtx = 1)
-                     then state = 3; --check queue
-                     else state = 0; --sleep
-                  end if;
-                 
-               when (state = 3) => 
-                  delay 0.0001;
-           Put_Line("Barber checking queue");
-          State := 2; --check mtx
-                   
-            end select;
-            
       end loop;
    end Barber;
    ------------------
@@ -65,92 +38,52 @@ procedure P01 is
    task body Client is
       L: integer;
    begin
-      L :=100;
-      R.A (L);
-      
+         loop
+      bShop.client_work;
+
+         end loop;
    end Client ;
       
       T_1 : T;
       T_2 : T;
-  ----------------------  
+  ----------------------   
   
-   task Mutex is
-      entry free;
-      entry take (data : out integer);
-            
-   end Mutex;
+   task type BShop is
+      entry done;
+      entry check;            
+   end BShop;
 
 
-   task body Mutex is
-      L: integer;      
-      begin
-       L:=1;    
-       loop
-       
-              select
-     
-                  accept take (M : out integer) do
-             Put_Line("call Take");
-             M:=L;
-             Put_Line(" LMTX = " & Integer'Image(L));
-                       L:=0;
-           end take;
-                
-              or
-           
-           accept free do
-             Put_Line("call Free");
-                       if (l = 1)
-                       then Put_Line("call Free, but already free");
-                       end if;
-             L:=1;          
-          end free;
+   task body BShop is
+      is_Sleep: boolean = true;
+            is_done: boolean = false;
+            is_in:boolean = false;
+   begin
+      
+           loop
+              
+              accept client_work do
+              
+              end client_work;
+              
+              
+              
+              accept barber_work do
+              
+              end barber_work;                      
+               
+               
              
-              end select;
-       end loop;
-   end Mutex;
-
-    
-  -----------------------------------------------------
-  
-  task Queue is
-      entry free;
-      entry take (data : out integer);
-            
-   end Queue;
-
-
-   task body Queue is
-      L: integer;      
-      begin
-       L:=1;    
-       loop
-       
-              select
-     
-                  accept take (M : out integer) do
-             Put_Line("call Take");
-             M:=L;
-             Put_Line(" LMTX = " & Integer'Image(L));
-                       L:=0;
-           end take;
-                
-              or
+               
+                        
+               
            
-           accept free do
-             Put_Line("call Free");
-                       if (l = 1)
-                       then Put_Line("call Free, but already free");
-                       end if;
-             L:=1;          
-          end free;
-             
-              end select;
-       end loop;
-   end Queue;
-
-    
-  -----------------------------------------------------
+           end loop;
+      
+   end BShop;     
+      
+  ---------------------- 
+ 
 
 begin
     
