@@ -5,73 +5,38 @@ procedure P01 is
    --use Ada.Text_IO;
    use Text_Io;
 
-   
-   ------------------------------------------------------------------------------
-   task Barber is
-      entry wake;
-            --entry B (data : out integer);
-            
-   end Barber;
-
-
-   task body Barber is
-      State: integer;
-            lmtx : integer = 0;      
-   begin
-            
-      loop  
-
-            Bshop.berber_work;
-
-           
-      
-      end loop;
-   end Barber;
-   ------------------
-   
-   task type Client is
-      entry done;
-            --entry B (data : out integer);            
-   end Client ;
-
-
-   task body Client is
-      L: integer;
-   begin
-         loop
-      bShop.client_work;
-
-         end loop;
-   end Client ;
-      
-      T_1 : T;
-      T_2 : T;
-  ----------------------   
+   ----------------------   
   
-   task type BShop is
-      entry done;
-      entry check;            
+   task BShop is
+      entry client_work;
+      entry barber_work;            
    end BShop;
 
 
    task body BShop is
-      is_Sleep: boolean = true;
-            is_done: boolean = false;
-            is_in:boolean = false;
+      L: integer;
+
    begin
       
            loop
               
               accept client_work do
-              
+                       Put_Line("new client ");  
               end client_work;
               
               
               
               accept barber_work do
-              
-              end barber_work;                      
-               
+                       Put_Line("work");
+                       
+                                       for I in Integer range 1 .. 10 loop
+
+                                          l := i*i;
+      
+                                          end loop;                     
+                 end barber_work;                      
+               Put_Line("done");  
+
                
              
                
@@ -80,7 +45,52 @@ procedure P01 is
            
            end loop;
       
-   end BShop;     
+   end BShop;
+   ------------------------------------------------------------------------------
+   task Barber is
+                  --entry B (data : out integer);
+            
+   end Barber;
+
+
+   task body Barber is    
+   begin
+            
+      loop  
+
+            Bshop.barber_work;
+
+           
+      
+      end loop;
+   end Barber;
+   ------------------
+   
+   task type Client is
+                  --entry B (data : out integer);            
+   end Client ;
+
+
+   task body Client is
+      L: integer;
+   begin
+         loop
+                  bshop.client_work;
+                  
+                        for I in Integer range 1 .. 1000 loop
+
+                           l := i*i;
+
+                        end loop;
+                        
+                        
+                        
+         end loop;
+   end Client ;
+      
+      T_1 : client;
+      T_2 : client;
+       
       
   ---------------------- 
  
