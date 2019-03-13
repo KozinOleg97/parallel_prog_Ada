@@ -11,6 +11,12 @@ procedure P01 is
       entry client_work;
       entry barber_work;            
    end BShop;
+   
+   task Barber is
+            entry wake;
+                  --entry B (data : out integer);
+            
+   end Barber;
 
 
    task body BShop is
@@ -21,21 +27,26 @@ procedure P01 is
            loop
               
               accept client_work do
+              
                        Put_Line("new client ");  
+                       Put_Line("client's count " & integer'image((client_work'count)));  
+                       
+        
+                             
               end client_work;
               
+              --barber.wake;
               
-              
-              accept barber_work do
-                       Put_Line("work");
-                       
-                                       for I in Integer range 1 .. 10 loop
-
-                                          l := i*i;
-      
-                                          end loop;                     
-                 end barber_work;                      
-               Put_Line("done");  
+                                 accept barber_work do
+                             Put_Line("work");
+                     
+                          for I in Integer range 1 .. 10 loop
+                              l := i*i;
+     
+                          end loop;                     
+                             end barber_work;     
+                             
+              Put_Line("done");  
 
                
              
@@ -47,16 +58,16 @@ procedure P01 is
       
    end BShop;
    ------------------------------------------------------------------------------
-   task Barber is
-                  --entry B (data : out integer);
-            
-   end Barber;
+   
 
 
    task body Barber is    
    begin
-            
+      Put_Line("sleep"); 
       loop  
+                        accept wake do
+                          Put_Line("wake"); 
+                        end wake;
 
             Bshop.barber_work;
 
@@ -75,7 +86,11 @@ procedure P01 is
       L: integer;
    begin
          loop
-                  bshop.client_work;
+
+                  barber.client_in(l);
+                                    if (l = 0)
+                                    then barber.wake;
+
                   
                         for I in Integer range 1 .. 1000 loop
 
@@ -90,6 +105,9 @@ procedure P01 is
       
       T_1 : client;
       T_2 : client;
+      
+            T_3 : client;
+
        
       
   ---------------------- 
@@ -97,7 +115,8 @@ procedure P01 is
 
 begin
     
-   Put_Line("Hello, world!");
+   Put_Line("--------"); 
+
    
       
 

@@ -4,82 +4,110 @@ A -gnatwu
 A -gnato
 A -g
 P
-R nnvvnnvvnnnvvvvvvvnnnnnnvnvvnnnvnnnnnvnn
+R nnvvnnnvnnnvvvvvvvnnnnnnnnvvnnnvnnvnnvnn
 
-U p01%b			p01.adb			6A97A00C NE SU
-W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+U p01%b			p01.adb			13EA5410 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W interfaces%s		interfac.ads		interfac.ali
+W random_generic%s	random_generic.adb	random_generic.ali
 W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
 W system.img_int%s	s-imgint.adb		s-imgint.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W system.soft_links%s	s-soflin.adb		s-soflin.ali
 W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
 W system.task_info%s	s-tasinf.adb		s-tasinf.ali
 W system.tasking%s	s-taskin.adb		s-taskin.ali
 W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
 W text_io%s		text_io.ads		text_io.ali
 
-D ada.ads		19941113000442 2359F9ED
-D a-calend.ads		19971119113804 0E1F0C88
-D a-caldel.ads		19980214131222 6E8ED3D1
-D a-except.ads		19981207201100 2DA50930
-D a-finali.ads		19971119113818 3F32DEEF
-D a-filico.ads		19970304225844 1DECB9AC
-D a-ioexce.ads		19941113032010 175CB67B
-D a-stream.ads		19971119113846 5F7C277B
-D a-tags.ads		19980810193500 45EF7E4E
-D a-textio.ads		19980710020122 2D24B708
-D interfac.ads		19990427013020 0357E00A
-D i-c.ads		19970515230708 30F7C341
-D i-cstrin.ads		19941113032132 462439BF
-D i-cstrea.ads		19980824002810 23D83009
-D p01.adb		20190311115000 12C3C610
-D system.ads		19990426135236 56350D64
-D s-exctab.ads		19970318033306 1A552981
-D s-ficobl.ads		19990212153920 0C03FD47
-D s-finimp.ads		19980220214008 1C201C0F
-D s-finroo.ads		19960921205928 166D4EDA
-D s-imgint.ads		19951120053032 21B5CB31
-D s-osinte.ads		19990123212332 6CACB5E0
-D s-parame.ads		19990409095734 637E33DE
-D s-secsta.ads		19990405200846 6DF20AF1
-D s-soflin.ads		19990409061558 519F026E
-D s-stache.ads		19990409101030 42B57F2A
-D s-stalib.ads		19990125195852 7A7199A7
-D s-stoele.ads		19980907120904 131D4539
-D s-stratt.ads		19981013225624 1761725B
-D s-strops.ads		19980414234432 3DBA3DD5
-D s-tasinf.ads		19990211141120 0F7BBEC5
-D s-taspri.ads		19981013112316 636B904E
-D s-taskin.ads		19990412205922 4A1E121F
-D s-taprob.ads		19990616110206 64D6A3CC
-D s-tpoben.ads		19990412205924 512638AB
-D s-tasren.ads		19981218223326 0A08BEEB
-D s-tassta.ads		19980626151140 264AB3EF
-D s-unstyp.ads		19980605011738 7918B0AB
-D text_io.ads		19961216004652 7854661C
-D unchconv.ads		19960730004842 72DC4539
-X 10 a-textio.ads
-260U14*Put_Line 15|24r24 30r24 41r16 65r19 70r19 76r19 127r4
-X 15 p01.adb
-4U11*P01
-10t9 BShop
-11Y13 client_work 23b22
-12Y13 barber_work 29b22
-17i7 L 34m43
-32i44 I 34r48 34r50
-53t9 barman 97r25 101r31
-54Y16 give 64b17 69b23 97r32
-55Y12 smoke 74b23 101r38
-60i10 L 62m12 65r52 66m19 66r22 70r52 71m19 71r22 78m22 80m19
-77i23 I 78r27 78r29
-87T14 Smoker 92b14 116r13 117r13 118r19
-93i7 L
-116t7 T_1
-117t7 T_2
-118t13 T_3
-X 39 text_io.ads
-21U9*Text_IO 15|2r6 6r8
+D ada.ads		19941113010442 2359F9ED
+D a-calend.ads		19971119123804 0E1F0C88
+D a-except.ads		19981207211100 2DA50930
+D a-finali.ads		19971119123818 3F32DEEF
+D a-filico.ads		19970304235844 1DECB9AC
+D a-ioexce.ads		19941113042010 175CB67B
+D a-numeri.ads		19941113010348 271ACBE2
+D a-nudira.ads		19980718183638 077E0363
+D a-nudira.adb		19980118021040 35B3AB38
+D a-stream.ads		19971119123846 5F7C277B
+D a-tags.ads		19980810203500 45EF7E4E
+D a-textio.ads		19980710030122 2D24B708
+D interfac.ads		19990427023020 0357E00A
+D i-c.ads		19970516000708 30F7C341
+D i-cstrin.ads		19941113042132 462439BF
+D i-cstrea.ads		19980824012810 23D83009
+D p01.adb		20190313120058 6CCDC24F
+D random_generic.ads	20190311125156 0773F043
+D random_generic.adb	20190311125156 785B6046
+D system.ads		19990426145236 56350D64
+D s-arit64.ads		19961219222852 45DECFCA
+D s-exctab.ads		19970318043306 1A552981
+D s-ficobl.ads		19990212163920 0C03FD47
+D s-finimp.ads		19980220224008 1C201C0F
+D s-finroo.ads		19960921215928 166D4EDA
+D s-imgint.ads		19951120063032 21B5CB31
+D s-osinte.ads		19990123222332 6CACB5E0
+D s-parame.ads		19990409105734 637E33DE
+D s-secsta.ads		19990405210846 6DF20AF1
+D s-soflin.ads		19990409071558 519F026E
+D s-stache.ads		19990409111030 42B57F2A
+D s-stalib.ads		19990125205852 7A7199A7
+D s-stoele.ads		19980907130904 131D4539
+D s-stratt.ads		19981013235624 1761725B
+D s-strops.ads		19980415004432 3DBA3DD5
+D s-sopco3.ads		19980110172950 4956B81D
+D s-sopco5.ads		19980110172952 11A74C40
+D s-tasinf.ads		19990211151120 0F7BBEC5
+D s-taspri.ads		19981013122316 636B904E
+D s-taskin.ads		19990412215922 4A1E121F
+D s-taprob.ads		19990616120206 64D6A3CC
+D s-tpoben.ads		19990412215924 512638AB
+D s-tasren.ads		19981218233326 0A08BEEB
+D s-tassta.ads		19980626161140 264AB3EF
+D s-unstyp.ads		19980605021738 7918B0AB
+D s-valint.ads		19960414153902 4D045982
+D text_io.ads		19961216014652 7854661C
+D unchconv.ads		19960730014842 72DC4539
+X 12 a-textio.ads
+260U14*Put_Line 17|44r48 51r50 70r31 75r19 96r31 102r61 120r4
+X 17 p01.adb
+6U11*P01
+9I15 my_type 13r49 28r32 29r30 34r10 42r44 44r80 49r42 64r12 70r64 87r10
+12U17 rnd_choise 68r21
+16I19 my_type2 20r49 89r16
+19U17 rnd_choise2 97r65
+27t9 table 72r16 92r13
+28Y13 put_rnd 42b25 72r22
+28i22 data 43r31
+29Y13 take 49b25 92r19
+29i19 data 50r27
+34i7 L 43m26 44r94 50r34
+42i34 data
+49i31 data
+58t9 barman 95r36
+59Y16 next 74b17 95r43
+64i10 L 66m12 68m16 70r78 72r30
+82T14 Smoker 86b14 109r13 110r13 111r13
+82i22 lacks 94r30
+87i7 L 92m24 94r26 96r68 102r98
+88i13 a 100m64
+89i13 n 97m61 99r75
+99i65 I 100r69 100r71
+109t7 T_1
+110t7 T_2
+111t7 T_3
+X 18 random_generic.ads
+3G9*Random_Generic 17|3r6 13r15 20r15
+4U12 Random_Value 17|68r32 97r77
+X 47 text_io.ads
+21U9*Text_IO 17|2r6 8r8
 
