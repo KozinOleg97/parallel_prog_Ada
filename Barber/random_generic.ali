@@ -1,0 +1,49 @@
+V "GNAT Lib v3.12  "
+A -gnatwu
+A -gnato
+A -g
+P
+R nnnnnnnnnnnnvvvnvnnnnnnnnnnvnnnnnnvnnnnn
+
+U random_generic%b	random_generic.adb	78569366 PK GE
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+U random_generic%s	random_generic.ads	0773F043 NE PK GE
+
+D ada.ads		19941113000442 2359F9ED
+D a-calend.ads		19971119113804 0E1F0C88
+D a-numeri.ads		19941113000348 271ACBE2
+D a-nudira.ads		19980718173638 077E0363
+D a-nudira.adb		19980118011040 35B3AB38
+D interfac.ads		19990427013020 0357E00A
+D random_generic.ads	20190313125424 0773F043
+D random_generic.adb	20190313125424 785B6046
+D system.ads		19990426135236 56350D64
+D s-exctab.ads		19970318033306 1A552981
+D s-stalib.ads		19990125195852 7A7199A7
+D unchconv.ads		19960730004842 72DC4539
+X 1 ada.ads
+18U9*Ada 8|1r6 3r32
+X 3 a-numeri.ads
+19U13*Numerics 8|1r10 3r36
+X 4 a-nudira.ads
+56G22*Discrete_Random 8|1r19 3r45
+60R9 Generator 8|5r19
+62U13 Random 8|8r25
+62R21 Gen 8|8r32
+64U14 Reset 8|11r16
+64R21 Gen 8|11r22
+72U14 Reset 8|11r16
+X 7 random_generic.ads
+2E8 Result_Subtype 4r32 8|4r24 6r32
+3G9*Random_Generic 8|2b14
+4U12 Random_Value 8|6b12
+X 8 random_generic.adb
+3U12 Ada95_Random 5r6 8r12 11r3
+5R3 G 8r39 11r29
+
