@@ -1,0 +1,2039 @@
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+Hello, world!
+philosopher # 4 wana eat
+philosopher # 1 take place # 1
+philosopher # 4 take place # 2
+philosopher # 2 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 1
+philosopher # 2 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 3
+philosopher # 2 take place # 5
+philosopher # 5 take place # 2
+philosopher # 3 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 1
+philosopher # 2 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 3
+philosopher # 2 take place # 5
+philosopher # 5 take place # 2
+philosopher # 3 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 5 wana eat
+philosopher # 3 take place # 1
+philosopher # 1 take place # 3
+philosopher # 2 take place # 5
+philosopher # 5 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 3
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 1 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 1 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+philosopher # 3 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 3 take place # 1
+philosopher # 1 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 3
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 5 place
+[ 0 ,  1 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 1
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 2 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+philosopher # 2 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+philosopher # 4 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 2 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 take place # 2
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+philosopher # 4 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 4 take place # 3
+philosopher # 1 take place # 1
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+philosopher # 4 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 5 take place # 5
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+philosopher # 4 wana eat
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+philosopher # 4 wana eat
+phil leave 3 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+philosopher # 1 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 1 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 wana eat
+philosopher # 4 take place # 3
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 1
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 1
+philosopher # 5 take place # 3
+philosopher # 2 take place # 5
+philosopher # 3 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 5 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 3
+philosopher # 2 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 1
+philosopher # 5 take place # 5
+philosopher # 2 take place # 2
+philosopher # 3 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 3
+philosopher # 5 take place # 5
+philosopher # 2 take place # 2
+philosopher # 3 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 1
+philosopher # 5 take place # 3
+philosopher # 2 take place # 5
+philosopher # 3 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 1 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 5 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 1 take place # 1
+philosopher # 5 take place # 3
+philosopher # 2 take place # 5
+philosopher # 3 take place # 5
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 4 wana eat
+philosopher # 2 take place # 1
+philosopher # 1 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 2
+philosopher # 4 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+philosopher # 4 wana eat
+[ 1 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 3
+philosopher # 2 wana eat
+philosopher # 5 take place # 5
+philosopher # 3 take place # 2
+philosopher # 2 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 1 ,  0 ,  0 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 take place # 3
+philosopher # 2 wana eat
+philosopher # 3 take place # 1
+philosopher # 5 wana eat
+philosopher # 2 take place # 2
+philosopher # 1 take place # 5
+philosopher # 5 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 3
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 3 take place # 1
+philosopher # 2 take place # 2
+philosopher # 1 wana eat
+philosopher # 5 take place # 5
+philosopher # 1 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 3 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 2 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+philosopher # 1 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 3 take place # 3
+philosopher # 2 wana eat
+philosopher # 1 take place # 5
+philosopher # 5 take place # 2
+philosopher # 2 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+philosopher # 2 wana eat
+phil leave 1 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 4 wana eat
+philosopher # 2 take place # 1
+philosopher # 4 take place # 2
+philosopher # 5 wana eat
+philosopher # 1 take place # 3
+philosopher # 3 take place # 5
+philosopher # 5 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  1]
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  1]
+philosopher # 5 wana eat
+philosopher # 1 wana eat
+phil leave 1 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 4 take place # 5
+philosopher # 2 wana eat
+philosopher # 3 wana eat
+philosopher # 5 take place # 1
+philosopher # 1 take place # 3
+philosopher # 2 take place # 2
+philosopher # 3 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+philosopher # 2 wana eat
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 2 take place # 1
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 4 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 2
+philosopher # 1 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 2 place
+philosopher # 2 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 4 wana eat
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+philosopher # 3 take place # 3
+philosopher # 4 take place # 5
+philosopher # 2 take place # 1
+philosopher # 1 take place # 2
+philosopher # 5 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 1 place
+philosopher # 4 wana eat
+philosopher # 5 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 5 take place # 3
+philosopher # 1 take place # 5
+philosopher # 3 wana eat
+philosopher # 3 take place # 2
+philosopher # 2 wana eat
+philosopher # 2 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+philosopher # 2 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+phil leave 2 place
+philosopher # 1 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 2 take place # 3
+philosopher # 5 take place # 5
+philosopher # 1 take place # 2
+philosopher # 3 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 2 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 3 wana eat
+philosopher # 1 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 2
+philosopher # 2 take place # 2
+phil leave 5 place
+[ 1 ,  1 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 4 wana eat
+philosopher # 2 take place # 1
+philosopher # 4 take place # 2
+philosopher # 1 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 take place # 3
+philosopher # 1 wana eat
+philosopher # 2 take place # 5
+philosopher # 3 take place # 2
+philosopher # 1 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 5 place
+philosopher # 4 wana eat
+[ 0 ,  1 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 2 take place # 3
+philosopher # 5 take place # 5
+philosopher # 3 take place # 2
+philosopher # 1 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 5 wana eat
+philosopher # 2 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 5 take place # 3
+philosopher # 1 wana eat
+philosopher # 2 take place # 5
+philosopher # 3 take place # 2
+philosopher # 1 take place # 2
+phil leave 5 place
+[ 1 ,  1 ,  1 ,  0 ,  0]
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+phil leave 1 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 2 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+phil leave 2 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 2 take place # 3
+philosopher # 1 take place # 5
+philosopher # 5 take place # 2
+philosopher # 3 take place # 2
+phil leave 3 place
+[ 1 ,  1 ,  0 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 2 wana eat
+philosopher # 4 wana eat
+philosopher # 4 take place # 3
+philosopher # 1 wana eat
+philosopher # 5 wana eat
+philosopher # 2 take place # 1
+philosopher # 1 take place # 5
+philosopher # 3 wana eat
+philosopher # 5 take place # 2
+philosopher # 3 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+philosopher # 3 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 2 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 3 take place # 1
+philosopher # 1 wana eat
+philosopher # 2 take place # 3
+philosopher # 4 take place # 5
+philosopher # 5 take place # 2
+philosopher # 1 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 5 wana eat
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 2 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  1 ,  0 ,  0]
+phil leave 3 place
+[ 1 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 wana eat
+philosopher # 5 take place # 1
+philosopher # 2 wana eat
+philosopher # 3 take place # 3
+philosopher # 4 take place # 2
+philosopher # 1 take place # 5
+philosopher # 2 take place # 2
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+philosopher # 5 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 take place # 3
+philosopher # 3 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 take place # 3
+philosopher # 3 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+philosopher # 4 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 5 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 take place # 3
+philosopher # 3 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 5 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 3 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 take place # 3
+philosopher # 3 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 5 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 take place # 1
+philosopher # 3 take place # 3
+philosopher # 1 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+philosopher # 5 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 5 take place # 3
+philosopher # 3 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+philosopher # 5 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 1 wana eat
+philosopher # 5 take place # 1
+philosopher # 2 wana eat
+philosopher # 3 take place # 3
+philosopher # 1 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+philosopher # 4 wana eat
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+phil leave 3 place
+philosopher # 4 wana eat
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 take place # 1
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 3 take place # 1
+philosopher # 5 take place # 3
+philosopher # 1 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+philosopher # 3 wana eat
+philosopher # 5 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 3 take place # 3
+philosopher # 5 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
+phil leave 1 place
+[ 0 ,  1 ,  1 ,  0 ,  1]
+philosopher # 4 wana eat
+philosopher # 4 take place # 2
+phil leave 3 place
+[ 0 ,  1 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  1 ,  0 ,  0 ,  0]
+philosopher # 3 wana eat
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+phil leave 2 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 5 wana eat
+philosopher # 1 wana eat
+philosopher # 2 wana eat
+philosopher # 3 take place # 1
+philosopher # 5 take place # 3
+philosopher # 1 take place # 5
+philosopher # 2 take place # 5
+phil leave 2 place
+[ 1 ,  0 ,  1 ,  0 ,  1]
+phil leave 1 place
+[ 0 ,  0 ,  1 ,  0 ,  1]
+phil leave 3 place
+[ 0 ,  0 ,  0 ,  0 ,  1]
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 4 wana eat
+philosopher # 5 wana eat
+philosopher # 3 wana eat
+phil leave 5 place
+[ 0 ,  0 ,  0 ,  0 ,  0]
+philosopher # 1 wana eat
+philosopher # 4 take place # 1
+philosopher # 2 wana eat
+philosopher # 5 take place # 3
+philosopher # 3 take place # 5
+philosopher # 1 take place # 2
+philosopher # 2 take place # 2
