@@ -1,0 +1,138 @@
+V "GNAT Lib v3.12  "
+M P W=b
+A -gnatwu
+A -gnato
+A -g
+P
+R nnvvnnnvnnnvvvvvvvnnnnnnnnvvnnnvnnvnnvnn
+
+U jdoodle%b		jdoodle.adb		225C451D NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W interfaces%s		interfac.ads		interfac.ali
+W random_generic%s	random_generic.adb	random_generic.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		19941113000442 2359F9ED
+D a-calend.ads		19971119113804 0E1F0C88
+D a-except.ads		19981207201100 2DA50930
+D a-finali.ads		19971119113818 3F32DEEF
+D a-filico.ads		19970304225844 1DECB9AC
+D a-ioexce.ads		19941113032010 175CB67B
+D a-numeri.ads		19941113000348 271ACBE2
+D a-nudira.ads		19980718173638 077E0363
+D a-nudira.adb		19980118011040 35B3AB38
+D a-stream.ads		19971119113846 5F7C277B
+D a-tags.ads		19980810193500 45EF7E4E
+D a-textio.ads		19980710020122 2D24B708
+D interfac.ads		19990427013020 0357E00A
+D i-c.ads		19970515230708 30F7C341
+D i-cstrin.ads		19941113032132 462439BF
+D i-cstrea.ads		19980824002810 23D83009
+D jdoodle.adb		20190325114638 5D7BD342
+D random_generic.ads	20190324145638 0773F043
+D random_generic.adb	20190324145638 785B6046
+D system.ads		19990426135236 56350D64
+D s-arit64.ads		19961219212852 45DECFCA
+D s-exctab.ads		19970318033306 1A552981
+D s-ficobl.ads		19990212153920 0C03FD47
+D s-finimp.ads		19980220214008 1C201C0F
+D s-finroo.ads		19960921205928 166D4EDA
+D s-imgint.ads		19951120053032 21B5CB31
+D s-osinte.ads		19990123212332 6CACB5E0
+D s-parame.ads		19990409095734 637E33DE
+D s-secsta.ads		19990405200846 6DF20AF1
+D s-soflin.ads		19990409061558 519F026E
+D s-stache.ads		19990409101030 42B57F2A
+D s-stalib.ads		19990125195852 7A7199A7
+D s-stoele.ads		19980907120904 131D4539
+D s-stratt.ads		19981013225624 1761725B
+D s-strops.ads		19980414234432 3DBA3DD5
+D s-sopco3.ads		19980110162950 4956B81D
+D s-sopco4.ads		19980110162950 5F333A58
+D s-sopco5.ads		19980110162952 11A74C40
+D s-tasinf.ads		19990211141120 0F7BBEC5
+D s-taspri.ads		19981013112316 636B904E
+D s-taskin.ads		19990412205922 4A1E121F
+D s-taprob.ads		19990616110206 64D6A3CC
+D s-tpoben.ads		19990412205924 512638AB
+D s-tasren.ads		19981218223326 0A08BEEB
+D s-tassta.ads		19980626151140 264AB3EF
+D s-unstyp.ads		19980605011738 7918B0AB
+D s-valint.ads		19960414143902 4D045982
+D text_io.ads		19961216004652 7854661C
+D unchconv.ads		19960730004842 72DC4539
+X 12 a-textio.ads
+260U14*Put_Line 17|54r21 55r21 59r21 60r21 62r21 68r21 80r21 88r21 95r21
+. 127r25 134r25 136r21 158r17 160r21 162r21 164r21 190r13 193r13 198r17 202r17
+. 205r13 216r13 236r5
+X 17 jdoodle.adb
+5U11*jdoodle
+8I13 my_type 11r45
+10U14 rnd_choise
+13I13 my_type2 15r46 177r13
+14U13 rnd_choise2 184r17 208r17
+19t10 table 161r21 199r17 217r13
+20Y15 check_place 93b24 161r27
+20i27 data 94r21 98r25 104r37 111r28 118r41 128r25 131r25
+21Y15 finish_eat 53b24 217r19
+21i26 data 56r27 57r28 58r28 59r65
+22Y15 check_neighbours 67b24 199r23
+22i33 data 69r26 81r21 83r24
+25T15 Phil 174b15 223r11 224r11 225r11 226r11 227r11
+25i21 lacks 180r19 190r56 191r23 193r56 198r60 202r60 205r56 216r56
+28t10 servant 192r13
+29Y15 want_to_eat 157b20 192r21
+29i27 data 158r71 160r82 162r77 166r17
+36a9 sits 44r18 45r13 55r56 55r90 55r123 55r156 55r189 56r21 60r56 60r90
+. 60r123 60r156 60r189 68r56 68r90 68r123 68r156 68r189 70r21 81r27 81r40
+. 85r25 88r56 88r90 88r123 88r156 88r189 99r34 102r37 105r37 113r38 116r41
+. 119r41
+37a9 forks 47r13 48r13 57r21 58r21
+38a9 blocks 46r13
+39i9 cnt 42m9 54r69 61m21 61r26 62r69 95r69 96r25 127r73 133m25 133r30 136r69
+40i9 left 72m21 73r25 75m25 80r70 81r32
+40i15 right 78m21 80r141 81r45
+40i22 cur 69m21 70r26 72r28 78r29 80r105 85r30
+44i13 I 45r18 46r20 47r19 48r19
+53i35 data
+67i42 data
+93i37 data
+99i29 I 100r33 102r43 104r44 105r43
+113i33 I 114r37 116r47 118r48 119r47
+152i9 place_l 161m39 162r108 163r31 166r24
+157i32 data
+176i9 a 187m17 211m17
+177i10 n 184m13 186r25 208m13 210r25
+178i9 my_place 180m9 191m13 192m33 193r96 197r39 217r30
+178i19 data 197m33 199m40 201r27
+186i17 I 187r22 187r24
+210i17 I 211r22 211r24
+223t5 T_1
+224t5 T_2
+225t5 T_3
+226t5 T_4
+227t5 T_5
+X 18 random_generic.ads
+3G9*Random_Generic 17|3r6 11r11 15r12
+4U12 Random_Value 17|184r29 208r29
+X 48 text_io.ads
+21U9*Text_IO 17|2r6 7r9
+

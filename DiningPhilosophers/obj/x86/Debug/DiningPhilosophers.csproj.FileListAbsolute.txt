@@ -1,0 +1,10 @@
+C:\Users\guest\Downloads\dining-philosophers-master\dining-philosophers-master\DiningPhilosophers\bin\Debug\DiningPhilosophers.exe
+C:\Users\guest\Downloads\dining-philosophers-master\dining-philosophers-master\DiningPhilosophers\bin\Debug\DiningPhilosophers.pdb
+C:\Users\guest\Downloads\dining-philosophers-master\dining-philosophers-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.csprojResolveAssemblyReference.cache
+C:\Users\guest\Downloads\dining-philosophers-master\dining-philosophers-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.exe
+C:\Users\guest\Downloads\dining-philosophers-master\dining-philosophers-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (3)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (3)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (3)\parallel_prog_Ada-master\DiningPhilosophers\bin\Debug\DiningPhilosophers.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (3)\parallel_prog_Ada-master\DiningPhilosophers\bin\Debug\DiningPhilosophers.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (3)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.csprojResolveAssemblyReference.cache

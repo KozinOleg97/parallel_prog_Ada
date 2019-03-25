@@ -1,18 +1,18 @@
 --with  Gnat.IO;
 with Text_Io;
---with Random_Generic;
+with Random_Generic;
 
 procedure jdoodle is 
     --use Ada.Text_IO;
     use Text_Io;
     subtype my_type is integer range 0..2;
     
-    -- package rnd_choise is 
-    --  new Random_Generic (Result_Subtype => my_type);
+     package rnd_choise is 
+      new Random_Generic (Result_Subtype => my_type);
 
-    --subtype my_type2 is integer range 1000..20000;
-    -- package rnd_choise2 is 
-    -- new Random_Generic (Result_Subtype => my_type2);
+    subtype my_type2 is integer range 1000..20000;
+    package rnd_choise2 is 
+       new Random_Generic (Result_Subtype => my_type2);
     
 ---------------------------------------------------------------------
   
@@ -137,9 +137,7 @@ procedure jdoodle is
                 end check_place;
             
             
-            or 
-            
-                delay 0.000000001;   
+              
                 
             end select;   
                
@@ -169,21 +167,23 @@ procedure jdoodle is
             end want_to_eat;
                 
         end loop;
+        
     end servant;
 ------------------------------------------------------------------------------------------
    
     task body Phil is
         -- L: my_type;
         a: integer;
-        -- n: my_type2;
+         n: my_type2;
         my_place, data: integer;
     begin
         my_place:=lacks;
         loop
+                        --delay 0.0001;
 
-            --n:= rnd_choise2.random_value;
+            n:= rnd_choise2.random_value;
             --Put_Line("!!" & Integer'Image(n));
-            for I in 100..1000 loop
+            for I in 1..n loop
                 a := i*i-1;
             end loop;
               
@@ -192,8 +192,9 @@ procedure jdoodle is
             servant.want_to_eat(my_place);
             put_line("(philosopher) #" & integer'Image(lacks) & " take place #"& integer'Image(my_place) ); 
             
-            data:=my_place;
+            
             loop
+                                data:=my_place;
                 put_line("(philosopher) #" & integer'Image(lacks) & " atempt to eat");
                 table.check_neighbours(data);
                 
@@ -202,16 +203,15 @@ procedure jdoodle is
             end loop;
             
             put_line("(philosopher) #" & integer'Image(lacks) & " eating!!!!!!!!!!");
-            --check_l.....
-            --eat.....
-              
-            -- n:= rnd_choise2.random_value;
+            
+            
+            n:= rnd_choise2.random_value;
             --Put_Line("!!" & Integer'Image(n));
-            for I in 100..1000 loop
+            for I in 1..n loop
                 a := i*i-1;
             end loop;
               
-            delay 0.0001;
+            --delay 0.0001;
               
             put_line("(philosopher) #" & integer'Image(lacks) & " wana leave");
             table.finish_eat(my_place);

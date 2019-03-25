@@ -4,12 +4,11 @@ A -gnatwu
 A -gnato
 A -g
 P
-R nnvvnnvvnnnvvvvvvvnnnnnnvnvvnnnvnnvnnvnn
+R nnvvnnnvnnnvvvvvvvnnnnnnnnvvnnnvnnvnnvnn
 
-U p01%b			p01.adb			02292CD8 NE SU IL
+U p01%b			p01.adb			259AC8E2 NE SU IL
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
-W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
 W interfaces%s		interfac.ads		interfac.ali
@@ -18,10 +17,7 @@ W system%s		system.ads		system.ali
 W system.arith_64%s	s-arit64.adb		s-arit64.ali
 W system.img_int%s	s-imgint.adb		s-imgint.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
-W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 W system.soft_links%s	s-soflin.adb		s-soflin.ali
-W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
-W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
 W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
 W system.task_info%s	s-tasinf.adb		s-tasinf.ali
 W system.tasking%s	s-taskin.adb		s-taskin.ali
@@ -32,7 +28,6 @@ W text_io%s		text_io.ads		text_io.ali
 
 D ada.ads		19941113000442 2359F9ED
 D a-calend.ads		19971119113804 0E1F0C88
-D a-caldel.ads		19980214131222 6E8ED3D1
 D a-except.ads		19981207201100 2DA50930
 D a-finali.ads		19971119113818 3F32DEEF
 D a-filico.ads		19970304225844 1DECB9AC
@@ -47,9 +42,9 @@ D interfac.ads		19990427013020 0357E00A
 D i-c.ads		19970515230708 30F7C341
 D i-cstrin.ads		19941113032132 462439BF
 D i-cstrea.ads		19980824002810 23D83009
-D p01.adb		20190321130442 7D0EBA87
-D random_generic.ads	20190313125424 0773F043
-D random_generic.adb	20190313125424 785B6046
+D p01.adb		20190325114616 5ABD5EBD
+D random_generic.ads	20190324145638 0773F043
+D random_generic.adb	20190324145638 785B6046
 D system.ads		19990426135236 56350D64
 D s-arit64.ads		19961219212852 45DECFCA
 D s-exctab.ads		19970318033306 1A552981
@@ -65,8 +60,6 @@ D s-stache.ads		19990409101030 42B57F2A
 D s-stalib.ads		19990125195852 7A7199A7
 D s-stoele.ads		19980907120904 131D4539
 D s-stratt.ads		19981013225624 1761725B
-D s-sopco3.ads		19980110162950 4956B81D
-D s-sopco4.ads		19980110162950 5F333A58
 D s-sopco5.ads		19980110162952 11A74C40
 D s-tasinf.ads		19990211141120 0F7BBEC5
 D s-taspri.ads		19981013112316 636B904E
@@ -79,52 +72,56 @@ D s-unstyp.ads		19980605011738 7918B0AB
 D s-valint.ads		19960414143902 4D045982
 D text_io.ads		19961216004652 7854661C
 D unchconv.ads		19960730004842 72DC4539
-X 13 a-textio.ads
-260U14*Put_Line 18|62r19 63r19 124r23 148r15 150r15 182r4
-X 18 p01.adb
-6U11*P01
-9I15 my_type 13r49 41r10 114r9 134r10
-12U17 rnd_choise
-16I19 my_type2 20r49 136r10
-19U17 rnd_choise2 142r19 155r19
-27t9 table 122r23 163r15
-28Y13 check_place 69b23 122r29
-28i25 data 74r22 78r37 85r25 89r46 99r24
-29Y19 finish_eat 58b23 163r21
-29i30 data 59r25 60r26 61r26 62r57
-32T15 Phil 133b14 169r13 170r13 171r13 172r19 173r19
-32i21 lacks 148r56 150r56
-35t9 servant 149r15
-36Y16 want_to_eat 120b16 149r23
-36i28 data 126r19
-41i7 L
-42a13 sits 49r19 50r13 59r19 63r48 63r82 63r115 63r148 63r181 75r31 77r34
-. 79r40 86r37 88r43 90r49
-43a13 forks 52r13 53r13 60r19 61r19
-44a13 blocks 51r13
-45i13 cnt 47m10 64m19 64r24 71r23 100m25 100r30
-49i14 I 50r18 51r20 52r19 53r19
-58i34 data
-69i36 data
-75i26 I 76r29 77r40 78r44 79r46
-86i32 I 87r38 88r49 89r53 90r55
-114i7 L
-115i10 place_l 122m41 123r33 126r26
-120i28 data
-134i7 L
-135i7 a 145m12 158m12
-136i7 n 142m15 144r22 155m15 157r22
-137i13 my_place 139m12 149m35 150r96 163r32 164m15
-144i12 I 145r17 145r19
-157i12 I 158r17 158r19
-169t7 T_1
-170t7 T_2
-171t7 T_3
-172t13 T_4
-173t13 T_5
-X 19 random_generic.ads
-3G9*Random_Generic 18|3r6 13r15 20r15
-4U12 Random_Value 18|142r31 155r31
-X 48 text_io.ads
-21U9*Text_IO 18|2r6 8r8
+X 12 a-textio.ads
+260U14*Put_Line 17|236r5
+X 17 p01.adb
+5U11*p01
+8I13 my_type 11r45
+10U14 rnd_choise
+13I13 my_type2 15r46 177r13
+14U13 rnd_choise2 184r17 208r17
+19t10 table 161r21 199r17 217r13
+20Y15 check_place 93b24 161r27
+20i27 data 94r21 98r25 104r37 111r28 118r41 128r25 131r25
+21Y15 finish_eat 53b24 217r19
+21i26 data 56r27 57r28 58r28
+22Y15 check_neighbours 67b24 199r23
+22i33 data 69r26 81r21 83r24
+25T15 Phil 174b15 223r11 224r11 225r11 226r11 227r11
+25i21 lacks 180r19 191r23
+28t10 servant 192r13
+29Y15 want_to_eat 157b20 192r21
+29i27 data 166r17
+36a9 sits 44r18 45r13 56r21 70r21 81r27 81r40 85r25 99r34 102r37 105r37 113r38
+. 116r41 119r41
+37a9 forks 47r13 48r13 57r21 58r21
+38a9 blocks 46r13
+39i9 cnt 42m9 61m21 61r26 96r25 133m25 133r30
+40i9 left 72m21 73r25 75m25 81r32
+40i15 right 78m21 81r45
+40i22 cur 69m21 70r26 72r28 78r29 85r30
+44i13 I 45r18 46r20 47r19 48r19
+53i35 data
+67i42 data
+93i37 data
+99i29 I 100r33 102r43 104r44 105r43
+113i33 I 114r37 116r47 118r48 119r47
+152i9 place_l 161m39 163r31 166r24
+157i32 data
+176i9 a 187m17 211m17
+177i10 n 184m13 186r25 208m13 210r25
+178i9 my_place 180m9 191m13 192m33 197r39 217r30
+178i19 data 197m33 199m40 201r27
+186i17 I 187r22 187r24
+210i17 I 211r22 211r24
+223t5 T_1
+224t5 T_2
+225t5 T_3
+226t5 T_4
+227t5 T_5
+X 18 random_generic.ads
+3G9*Random_Generic 17|3r6 11r11 15r12
+4U12 Random_Value 17|184r29 208r29
+X 45 text_io.ads
+21U9*Text_IO 17|2r6 7r9
 
