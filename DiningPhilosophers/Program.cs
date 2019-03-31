@@ -1,6 +1,4 @@
-﻿// Framework used: .NET Framework 4
-// Compiler used: v4.0.30319.1
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
@@ -11,11 +9,13 @@ namespace DiningPhilosophers
     class Program
     {
         private const int PHILOSOPHER_COUNT = 5;
+        
 
         static void Main(string[] args)
         {
             // Construct philosophers and chopsticks
-            var philosophers = InitializePhilosophers();
+            Servant serv = new Servant();
+            var philosophers = InitializePhilosophers(serv);
 
             // Start dinner
             Console.WriteLine("Dinner is starting!");
@@ -43,13 +43,13 @@ namespace DiningPhilosophers
             Console.ReadKey();
         }
 
-        private static List<Philosopher> InitializePhilosophers()
+        private static List<Philosopher> InitializePhilosophers(Servant serv)
         {
             // Construct philosophers
             var philosophers = new List<Philosopher>(PHILOSOPHER_COUNT);
             for (int i = 0; i < PHILOSOPHER_COUNT; i++)
             {
-                philosophers.Add(new Philosopher(philosophers, i));
+                philosophers.Add(new Philosopher(philosophers, i, serv));
             }
 
             // Assign chopsticks to each philosopher
@@ -66,6 +66,35 @@ namespace DiningPhilosophers
         }
     }
 
+
+    public class Servant
+    {
+        public int x = 0;
+        object locker = new object();
+
+        public bool takePlace()
+        {
+            lock (locker)
+                Console.WriteLine(x);
+            {
+                if (x < 4)
+                {
+                    x++;
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
+
+        public void freePlace()
+        {
+            x--;
+        }
+    }
+
     [DebuggerDisplay("Name = {Name}")]
     public class Philosopher
     {
@@ -73,9 +102,12 @@ namespace DiningPhilosophers
         private int _timesEaten = 0;
         private readonly List<Philosopher> _allPhilosophers;
         private readonly int _index;
+        private Servant _serv;
+        private object locker = new object();
 
-        public Philosopher(List<Philosopher> allPhilosophers, int index)
+        public Philosopher(List<Philosopher> allPhilosophers, int index, Servant serv)
         {
+            _serv = serv;
             _allPhilosophers = allPhilosophers;
             _index = index;
             this.Name = string.Format("Philosopher {0}", _index);
@@ -115,6 +147,7 @@ namespace DiningPhilosophers
             while (true)//(_timesEaten < TIMES_TO_EAT)
             {
                 this.Think();
+                this.TakePlace();
                 if (this.PickUp())
                 {
                     // Chopsticks acquired, eat up
@@ -123,8 +156,31 @@ namespace DiningPhilosophers
                     // Release chopsticks
                     this.PutDownLeft();
                     this.PutDownRight();
+
+                    this.FreePlace();
                 }
             }
+        }
+
+        private void FreePlace()
+        {
+            _serv.x--;
+        }
+
+        private void TakePlace()
+        {
+
+            _serv.takePlace();
+            /*lock (locker)
+                Console.WriteLine(this.Name + "  "  + _serv.x);
+            {
+                while ( _serv.x >= 4)
+                {
+                    
+                }
+
+                _serv.x++;               
+            }*/
         }
 
         private bool PickUp()
