@@ -1,0 +1,12 @@
+D:\RW_C_2\RW_C_2\bin\Debug\RW_C_2.exe.config
+D:\RW_C_2\RW_C_2\bin\Debug\RW_C_2.exe
+D:\RW_C_2\RW_C_2\bin\Debug\RW_C_2.pdb
+D:\RW_C_2\RW_C_2\obj\Debug\RW_C_2.csprojResolveAssemblyReference.cache
+D:\RW_C_2\RW_C_2\obj\Debug\RW_C_2.exe
+D:\RW_C_2\RW_C_2\obj\Debug\RW_C_2.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\RW_C_2\RW_C_2\bin\Debug\RW_C_2.exe.config
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\RW_C_2\RW_C_2\obj\Debug\RW_C_2.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\RW_C_2\RW_C_2\obj\Debug\RW_C_2.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\RW_C_2\RW_C_2\bin\Debug\RW_C_2.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\RW_C_2\RW_C_2\bin\Debug\RW_C_2.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\RW_C_2\RW_C_2\obj\Debug\RW_C_2.csprojResolveAssemblyReference.cache
