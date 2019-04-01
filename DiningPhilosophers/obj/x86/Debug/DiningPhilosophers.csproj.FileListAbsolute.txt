@@ -14,3 +14,8 @@ E:\Загрузки\parallel_prog_Ada-master (2)\parallel_prog_Ada-master\Dining
 E:\Загрузки\parallel_prog_Ada-master (2)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.csproj.CoreCompileInputs.cache
 E:\Загрузки\parallel_prog_Ada-master (2)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.exe
 E:\Загрузки\parallel_prog_Ada-master (2)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\DiningPhilosophers\bin\Debug\DiningPhilosophers.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\DiningPhilosophers\bin\Debug\DiningPhilosophers.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\DiningPhilosophers\obj\x86\Debug\DiningPhilosophers.csprojResolveAssemblyReference.cache

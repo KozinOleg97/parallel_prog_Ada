@@ -1,0 +1,12 @@
+D:\Barber_C\Barber_C\bin\Debug\Barber_C.exe.config
+D:\Barber_C\Barber_C\bin\Debug\Barber_C.exe
+D:\Barber_C\Barber_C\bin\Debug\Barber_C.pdb
+D:\Barber_C\Barber_C\obj\Debug\Barber_C.csprojResolveAssemblyReference.cache
+D:\Barber_C\Barber_C\obj\Debug\Barber_C.exe
+D:\Barber_C\Barber_C\obj\Debug\Barber_C.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\Barber_C\Barber_C\bin\Debug\Barber_C.exe.config
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\Barber_C\Barber_C\obj\Debug\Barber_C.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\Barber_C\Barber_C\obj\Debug\Barber_C.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\Barber_C\Barber_C\bin\Debug\Barber_C.exe
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\Barber_C\Barber_C\bin\Debug\Barber_C.pdb
+C:\Users\guest\Downloads\parallel_prog_Ada-master (4)\parallel_prog_Ada-master\Barber_C\Barber_C\obj\Debug\Barber_C.csprojResolveAssemblyReference.cache

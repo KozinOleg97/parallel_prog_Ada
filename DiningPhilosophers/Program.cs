@@ -9,18 +9,18 @@ namespace DiningPhilosophers
     class Program
     {
         private const int PHILOSOPHER_COUNT = 5;
-        
+
 
         static void Main(string[] args)
         {
-            // Construct philosophers and chopsticks
+
             Servant serv = new Servant();
             var philosophers = InitializePhilosophers(serv);
 
-            // Start dinner
-            Console.WriteLine("Dinner is starting!");
 
-            // Spawn threads for each philosopher's eating cycle
+            Console.WriteLine("Dinner is starting!"); // Start
+
+
             var philosopherThreads = new List<Thread>();
             foreach (var philosopher in philosophers)
             {
@@ -29,36 +29,33 @@ namespace DiningPhilosophers
                 philosopherThread.Start();
             }
 
-            
-                
 
-            // Wait for all philosopher's to finish eating
-            foreach (var thread in philosopherThreads)
+
+
+
+            foreach (var thread in philosopherThreads) // finish eating
             {
                 thread.Join();
             }
 
-            // Done
+
             Console.WriteLine("Dinner is over!");
             Console.ReadKey();
         }
 
         private static List<Philosopher> InitializePhilosophers(Servant serv)
         {
-            // Construct philosophers
             var philosophers = new List<Philosopher>(PHILOSOPHER_COUNT);
             for (int i = 0; i < PHILOSOPHER_COUNT; i++)
             {
                 philosophers.Add(new Philosopher(philosophers, i, serv));
             }
 
-            // Assign chopsticks to each philosopher
-            foreach (var philosopher in philosophers)
+
+            foreach (var philosopher in philosophers) // Assign chopsticks to philosophers
             {
-                // Assign left chopstick
                 philosopher.LeftChopstick = philosopher.LeftPhilosopher.RightChopstick ?? new Chopstick();
 
-                // Assign right chopstick
                 philosopher.RightChopstick = philosopher.RightPhilosopher.LeftChopstick ?? new Chopstick();
             }
 
@@ -86,7 +83,7 @@ namespace DiningPhilosophers
                 {
                     return false;
                 }
-            }
+            }            
         }
 
         public void freePlace()
@@ -104,6 +101,7 @@ namespace DiningPhilosophers
         private readonly int _index;
         private Servant _serv;
         private object locker = new object();
+        public static Random rnd = new Random();
 
         public Philosopher(List<Philosopher> allPhilosophers, int index, Servant serv)
         {
@@ -143,18 +141,18 @@ namespace DiningPhilosophers
 
         public void EatAll()
         {
-            // Cycle through thinking and eating until done eating.
+            
             while (true)//(_timesEaten < TIMES_TO_EAT)
             {
                 this.Think();
                 this.TakePlace();
                 if (this.PickUp())
                 {
-                    // Chopsticks acquired, eat up
+                    
                     this.Eat();
 
-                    // Release chopsticks
-                    this.PutDownLeft();
+                    
+                    this.PutDownLeft(); // Release chopsticks
                     this.PutDownRight();
 
                     this.FreePlace();
@@ -185,35 +183,33 @@ namespace DiningPhilosophers
 
         private bool PickUp()
         {
-            // Try to pick up the left chopstick
-            if (Monitor.TryEnter(this.LeftChopstick))
+            
+            if (Monitor.TryEnter(this.LeftChopstick)) // Try to pick up the left chopstick
             {
                 Console.WriteLine(this.Name + " picks up left chopstick.");
-
-                // Now try to pick up the right
-                if (Monitor.TryEnter(this.RightChopstick))
+                
+                if (Monitor.TryEnter(this.RightChopstick)) // Try to pick up the right
                 {
-                    Console.WriteLine(this.Name + " picks up right chopstick.");
-
-                    // Both chopsticks acquired, its now time to eat
+                    Console.WriteLine(this.Name + " picks up right chopstick.");                    
                     return true;
                 }
                 else
-                {
-                    // Could not get the right chopstick, so put down the left
+                {                    
                     this.PutDownLeft();
                 }
             }
 
-            // Could not acquire chopsticks, try again
-            return false;
+            
+            return false; // Try again
         }
 
         private void Eat()
         {
+
             this.State = State.Eating;
             _timesEaten++;
             Console.WriteLine(this.Name + " eats.");
+            Thread.Sleep(rnd.Next(10, 1000));
         }
 
         private void PutDownLeft()
@@ -227,11 +223,12 @@ namespace DiningPhilosophers
             Monitor.Exit(this.RightChopstick);
             Console.WriteLine(this.Name + " puts down right chopstick.");
         }
-        
+
 
         private void Think()
         {
             this.State = State.Thinking;
+            Thread.Sleep(rnd.Next(10, 1000));
         }
     }
 
